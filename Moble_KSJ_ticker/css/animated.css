@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.animated { animation-duration: 1s;}
+
+.fadeInLeft {
+    animation-name: fadeInLeft;}
+
+@keyframes  fadeInLeft {
+    0% {opacity: 0;
+        transform: translateX(-20px)}
+
+    100% {opacity: 1;
+        transform: translateX(0)}
+}
+
+.fadeInUp {animation-name: fadeInUp;}
+
+@keyframes fadeInUp {
+    0% {opacity: 0;
+        transform: translateY(20px)}
+
+    100% {opacity: 1;
+        transform: translateY(0)}
+}
+
+.fadeInDown {animation-name: fadeInDown;}
+
+@keyframes fadeInDown {
+    0% {opacity: 0;
+        transform: translateY(-20px)}
+
+    100% {opacity: 1;
+        transform: translateY(0)}
+}
+
+.shake {animation-name: shake;}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX()}
+
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-10px);
+    }
+
+    20%, 40%, 60%, 80% {
+        transform: translateX(10px);
+    }
+}
+
+.delay-05s {animation-delay: 0.5s; -webkit-animation-delay: 0.5s;}
+.delay-1s {animation-delay: 1s; -webkit-animation-delay: 1s;}

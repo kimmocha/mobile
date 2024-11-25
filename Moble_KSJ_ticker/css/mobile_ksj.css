@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+*,*:after,*:before {box-sizing: border-box;}
+a {text-decoration: none; font-family: 'kpwdm';}
+
+#header {background: #fff; position: relative;}
+
+h1 {text-align: center;}
+
+.logo {width: 90px;margin-top: 10px;}
+
+#ham {border: 0; font-size: 1.8rem; font-weight: bold;
+       background: none; cursor: pointer; display: inline-block;
+     position: absolute; left: 2%; top: 5%; color: #666;}
+
+.line {border-bottom:1px solid #d1cecc; height: 0.3rem; margin-bottom: 5px;}
+
+/*.aa {display: inline-block; position: absolute; right: 5%; top: 8px;}
+.aa ul li {float: left; margin: 8px;}
+.aa a {font-weight: bold; color: #666;}*/
+/* {margin-left: 10px;} */
+
+.search::after {content: "\e97a"; font-family: "xeicon"; float: left;
+                position: absolute; right: 13%; top: 22%; color: #666;
+                font-weight: 700; transform: scale(2);}
+.mypage::after {content: "\ea2a"; font-family: "xeicon"; float: left;
+                position: absolute; right: 5%; top: 22%; color: #666;
+                font-weight: 700; transform: scale(2);}
+
+/*tikcer */
+.block {border: none; padding: 0 5px; height: 25px;
+        overflow: hidden; background: #fff; width: 600px;
+        font-family: Gulim; font-size: 12px; margin-bottom: 5px;
+        margin: auto;}
+                
+.block li a {display: block; height: 25px; line-height: 20px;
+             color: #555; text-decoration: none;}
+.block li span {padding: 2px 5px; background: none; color: #d81f25;
+                                font-weight: bold; margin-right: 5px;}
+
+/*tikcer end */
+
+section {margin: 0 auto; font-weight: 800;}
+
+#ban_main {width: 640px; height: 302px;
+           position: relative; overflow: hidden; margin: 0 auto;}
+#ban_main ul {width: 1920px; height: 302px;
+              position: absolute; top: 0; left: 0;}
+#ban_main li {float: left;}
+#ban_main li img {width: 100%;}
+
+#sec2 {margin-top: 20px; position: relative;}
+.btn1 {float: left; position: absolute; left: 85px; top:2px;
+        width: 18px; height: 18px; background: none; font-size: 25px;
+        cursor: pointer; border-radius: 3px;}
+.btn1 p {transform: translate(-6px,-8px);}
+
+#sec3 {margin-top: 20px; position: relative;}
+.btn2 {float: left; position: absolute; left: 85px; top:2px;
+        width: 18px; height: 18px; background: none; font-size: 25px;
+        cursor: pointer; border-radius: 3px;}
+.btn2 p {transform: translate(-6px,-8px);}
+
+#sec1 h2 {font-size: 1rem; margin:40px 15px 0px;}
+
+#sec1 ul {display: flex; flex-wrap: wrap;}
+#sec1 ul li {width: 12%;height: 100%; margin: 4%; text-align: center;
+             font-size: 0.8rem;}
+#ot li a {color: #000;}
+#ot> li> a> img {width: 100%;}
+
+
+
+
+/* ------------------햄버거메뉴--------------------- */
+#hammenu {height: 150%; position: absolute;
+          width: 70%; top: 0;
+          background: #fafafa; left:-75%;}
+.hamhd {width: 100%; height: 70px; background: #666;}
+.hamhd ul li {float: left; margin: 1.3rem; margin-left: 3rem;}
+.hamhd ul li a {color: #fff; vertical-align:middle;}
+.log1 {background: #2e9afe; padding: 8px 35px; border-radius: 7px;
+       transform: translateY(-0.4rem);}
+
+#hamex {border: 0; font-size: 4rem; background: none;
+        cursor: pointer; color: #fff; position: absolute; right: 0; top: -1%;}
+
+
+.tb1 {margin-left: 1rem; margin-right: 0.5rem;}
+.tb1 h3 {padding: 5px; margin-top: 1.5rem;
+         border-bottom: 1px solid #000; width: 100%;}
+.tb1 ul li {float: left; width: 50%; padding: 10px; text-align: justify;
+            border-bottom: 1px solid #d1cecc;
+            border-right: 1px solid #d1cecc;}
+.tb1 ul li a {color: #000; display: block;}
+.tb1 ul li:nth-child(even) {border-right: none;}
+
+.tb2 {margin-left: 1rem; margin-right: 0.5rem; height: 320px;}
+.tb2 h3 {padding: 5px; margin-top: 2rem;
+         border-bottom: 1px solid #000; width: 100%;}
+.tb2 ul li {float: left; width: 50%; padding: 10px; text-align: justify;
+            border-bottom: 1px solid #d1cecc;
+            border-right: 1px solid #d1cecc;}
+.tb2 ul li a {color: #000; display: block;}
+.tb2 ul li:nth-child(even) {border-right: none;}
+
+.tb3 {margin-left: 1rem; margin-right: 0.5rem; height: 160px;}
+.tb3 h3 {padding: 5px; margin-top: 0.8rem;
+         border-bottom: 1px solid #000; width: 100%;}
+.tb3 ul li {float: left; width: 50%; padding: 10px; text-align: justify;
+            border-bottom: 1px solid #d1cecc;
+            border-right: 1px solid #d1cecc;}
+.tb3 ul li a {color: #000; display: block;}
+.tb3 ul li:nth-child(even) {border-right: none;}
+
+.tb4 {margin-left: 1rem; margin-right: 0.5rem; height: 200px;}
+.tb4 h3 {padding: 5px; margin-top: 0.8rem;
+         border-bottom: 1px solid #000; width: 100%;}
+.tb4 ul li {float: left; width: 50%; padding: 10px; text-align: justify;
+            border-bottom: 1px solid #d1cecc;
+            border-right: 1px solid #d1cecc;}
+.tb4 ul li a {color: #000; display: block;}
+.tb4 ul li:nth-child(even) {border-right: none;}
+
+#sns {width: 95%; height: 160px;margin: 15px;}
+#sns ul {display: flex; text-align:center;}
+#sns ul li {width: 20%;}
+#sns ul li a {}
+#sns ul li span {font-weight: bold; font-size: 15px;}
+#sns img {width: 75px}
+
+#hamft {width: 95%; height: 120px; border-bottom: 1px solid #d1cecc;
+        padding: 0 auto; margin: 15px;}
+#hamft ul {display: flex;}
+#hamft ul li {text-align: center; width: 50%;
+               margin: 1rem; padding: 8px 0;border-radius: 5px;}
+
+.log2 {background:#2e9afe;}
+.log2 a {color: #fff;}
+.home2 {border: 1px solid #d1cecc;}
+.home2 a {color: #000;}
+
+/* ------------------햄버거메뉴 끝--------------------- */
+
+

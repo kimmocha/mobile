@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'ngothic';
+    src: url(../font/NanumGothic.woff) format('.woff');}
+@font-face {
+    font-family: 'ngothiceb';
+    src: url(../font/NanumGothicExtraBold.woff) format('.woff');}
+
+@font-face {
+    font-family: 'kpwbb';
+    src: url(../font/KoPubWorld\ Batang\ Bold.ttf) format('ttf');}
+@font-face {
+    font-family: 'kpwbl';
+    src: url(../font/KoPubWorld\ Batang\ Light.ttf) format('ttf');} 
+@font-face {
+    font-family: 'kpwbm';
+    src: url(../font/KoPubWorld\ Batang\ Medium.ttf) format('ttf');}
+@font-face {
+    font-family: 'kpwdb';
+    src: url(../font/KoPubWorld\ Dotum\ Bold.ttf) format('ttf');}
+@font-face {
+    font-family: 'kpwdl';
+    src: url(../font/KoPubWorld\ Dotum\ Light.ttf) format('ttf');}
+@font-face {
+    font-family: 'kpwdm';
+    src: url(../font/KoPubWorld\ Dotum\ Medium.ttf) format('ttf');}   
+@font-face {
+    font-family: 'estart';
+    src: url(../font/establish\ Retrosans.ttf) format('ttf');}   
